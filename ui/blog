@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            *{
+                margin: 0px;
+                
+            }
+            
+            
+            .d1{
+                background-color: #333333;
+                width: 100%;
+                height: 60px;
+               position: relative;
+            }
+            .d11{
+                width: 500px;
+                height: 40px;
+                margin-left: 1390px;
+                margin-top: 20px;
+                position: absolute;
+            }
+            a{
+               font-family: agency FB;
+                font-size: 21px;
+                text-decoration: none; 
+                color: #999999;
+                padding-left: 12px;
+                font-weight: bold;
+            }
+            .d2{
+                
+                width: 100%;
+                height: 100%;
+               position: absolute;
+                background-image: url(images/Website-Design-Background-1.jpg);
+                
+            }
+            .d20{
+                width: 200px;
+                height: 200px;
+                
+                margin-top: 50px;
+                margin-left: 850px;
+               opacity: 0.8;
+               
+            }
+            .dp{}
+            .dp:hover{
+                width: 205px;
+                height: 205px;
+                transition: width 0.5s, height 0.5s;
+            }
+            .d21{
+                color: whitesmoke;
+                font-family: Impact;
+                font-size: 50px;
+                margin-left: 810px;
+                margin-top: 20px;
+                font-kerning: normal;
+                font-stretch: extra-condensed;
+            }
+            .d22{
+                width: 100%;
+                height: 580px;
+                background-color: whitesmoke;
+                opacity: 0.2;
+                position: absolute;
+                margin-top: 10px;
+            }
+            .d23{
+                width: 1200px;
+                height: 550px;
+                color: white;
+                margin-left: 25px;
+                margin-top: 40px;
+               
+                
+            }
+            .dt{
+                text-align: center;
+                margin-left: 650px;
+                 font-family: Rounded Elegance;
+                padding-top: 20px;
+                font-size: 20px;
+            }
+            .d24{
+                position: absolute;
+                color: white;
+            }
+            .site{
+                color: white;
+                font-family: Arial Narrow;
+                margin-left: 800px;
+                margin-top: 20px;
+                font-size: 20px;
+                text-align: center;
+            }
+             </style>
+    </head>
+    <body>
+        <div class="d">
+            <div class="d1">
+                <div class="d11">
+                    <input class="bt1" type="text" name="search" placeholder="search here...">
+                    <input type="button" name="bt1" value="search">
+                    <a href="home.php">Home</a> 
+                   
+                    <a href="blog.php">Blogs</a> 
+                      <a href="about.php">About</a>
+                    <a href="subscribe.php">Subscribe</a> 
+                </div>
+            </div>
+            <div class="d2">
+                <div class="d20"><img class="dp"src="images/blog dp.jpg" width="200px" height="200px">
+            </div>
+                <div class="d21">HASIMSHAH R S</div>
+                <div class="d22"></div>
+                <div class="d23"><p class="dt">-Video Editor-</p>
+                    <p class="dt">-Graphic Designer-</p>
+                    <p class="dt">-Web Designer-</p>
+                    <p class="dt">-Blogger-</p>
+                    <div class="d24">
+                        <p class="site">www.facebook.com/hasim.shah1</p>
+                        <p class="site">hash.editz@gmail.com</p>
+                         <p class="site">+918547735264</p>
+                        </div>
+                </div>
+                
+                </div>
+                   
+    </body>
+</html>
+
+
